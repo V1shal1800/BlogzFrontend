@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(223, 221, 221) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+image{
+  width: 35vw;
+  height: 35vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
