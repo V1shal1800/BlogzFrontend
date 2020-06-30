@@ -7,7 +7,6 @@ import Navbar from './components/navbar';
 import Home from './pages/home';
 import AdminPage from './pages/admin';
 import NotFound from './pages/404';
-import indBlog from './pages/individualBLog';
 
 function App() {
 	return (
@@ -18,7 +17,6 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route exact path="/admin" component={AdminPage} />
 					<Route exact path="/404" component={NotFound} />
-					<Route exact path="/blog" component={indBlog} />
 					<Redirect to="/404" />
 				</Switch>
 			</Router>
