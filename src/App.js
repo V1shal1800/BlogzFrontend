@@ -14,10 +14,10 @@ function App() {
 			<Navbar />
 			<Router>
 				<Switch>
-					<Route exact path="/" component={Home} />
-					<Route exact path="/admin" component={AdminPage} />
-					<Route exact path="/404" component={NotFound} />
-					<Redirect to="/404" />
+					<Route exact path={"/"} component={Home} />
+					<Route exact path={"/admin"} component={AdminPage} />
+					<Route exact path={"/404"} component={NotFound} />
+					<Redirect to={"/404"} />
 				</Switch>
 			</Router>
 		</React.Fragment>
