@@ -9,10 +9,10 @@ class Navbar extends Component {
                 <ul className="navbar-nav">
                 <Router>
                     <li className="nav-item active">
-                        <Link to="/"><span className="nav-link">Home <span className="sr-only">(current)</span></span></Link>
+                        <Link to={"/"}><span className="nav-link">Home <span className="sr-only">(current)</span></span></Link>
                     </li>
                     <li className="nav-item">
-                    <Link to="/admin"><span className="nav-link">Admin</span></Link>
+                    <Link to={"/admin"}><span className="nav-link">Admin</span></Link>
                     </li>
                 </Router>
                 </ul>
